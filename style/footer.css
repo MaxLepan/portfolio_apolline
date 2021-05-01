@@ -18,13 +18,13 @@
     position: relative;
     right: 0;
     text-align: right;
-    vertical-align: center;
-    transform: translate(0, -25%);
+    transform: translate(0, 25%);
 }
 
 #credit {
     position: relative;
     float: left;
+    transform: translate(0, 25%);
 }
 
 #footer-content {

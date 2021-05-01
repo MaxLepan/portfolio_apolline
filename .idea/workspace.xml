@@ -11,7 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc62d36-0f2a-4043-8eaa-e6d27e79c29f" name="Default Changelist" comment="Added project page + fixed bugs">
-      <change beforePath="$PROJECT_DIR$/style/circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/circle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project_template_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project_template_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/project_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/project_page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +73,9 @@
       <workItem from="1617347204951" duration="17022000" />
       <workItem from="1619259579324" duration="15148000" />
       <workItem from="1619346325752" duration="14350000" />
-      <workItem from="1619449726423" duration="6528000" />
+      <workItem from="1619449726423" duration="6612000" />
+      <workItem from="1619536412009" duration="459000" />
+      <workItem from="1619608057553" duration="3295000" />
     </task>
     <task id="LOCAL-00001" summary="Added import in script.js">
       <created>1619451404733</created>
@@ -81,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619456347349</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added project page + fixed bugs">
+      <created>1619456412377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619456412377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added import in script.js" />
@@ -104,10 +122,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added project page + fixed bugs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1368" y="261" key="Vcs.Push.Dialog.v2" timestamp="1619451415726">
+    <state x="-1368" y="261" key="Vcs.Push.Dialog.v2" timestamp="1619456421885">
       <screen x="-1920" y="8" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="261" key="Vcs.Push.Dialog.v2/-1920.8.1920.1040/0.0.1920.1040@-1920.8.1920.1040" timestamp="1619451415726" />
+    <state x="-1368" y="261" key="Vcs.Push.Dialog.v2/-1920.8.1920.1040/0.0.1920.1040@-1920.8.1920.1040" timestamp="1619456421885" />
     <state x="-1143" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619450367287">
       <screen x="-1920" y="8" width="1920" height="1040" />
     </state>

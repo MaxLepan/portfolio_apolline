@@ -1,18 +1,48 @@
-#logo {
+#logo_anim_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 15;
+
+}
+
+.animation {
+    animation: smooth linear 0.2s;
+}
+
+@keyframes smooth {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+#logo-wrapper {
     position: relative;
     width: 180px;
     height: 128px;
 
     left: 82px;
-    background-color: darkblue;
+}
+
+#logo {
+    position: relative;
+    object-fit: contain;
+    width: 100%;
 }
 
 
 header {
     position: relative;
-    top: 80px;
+    top: 54px;
     width: 100vw;
     display: inline-flex;
+
 }
 
 nav {
@@ -30,6 +60,7 @@ nav {
     font-family: commuters-sans, sans-serif;
     font-style: normal;
     font-size: 21px;
+    color: white;
 }
 
 #about {
