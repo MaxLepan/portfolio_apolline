@@ -30,7 +30,7 @@ const requestProjects = async () => {
 
             let location = document.location.origin;
 
-            let projectUrl = `${location}/pages/project_page.html?projectId=${idProject}`;
+            let projectUrl = `${location}/pages/project.html?projectId=${idProject}`;
 
             project.href = projectUrl;
         })

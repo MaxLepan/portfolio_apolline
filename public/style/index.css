@@ -58,6 +58,10 @@ a:hover {
     display: inline-block;
     left: calc(50% - 439px/2);
     vertical-align: center;
+    width: 439px;
+    height: 559px;
+
+    border: white solid 1px;
 
     transform: rotate(-23deg);
     transition: 0.3s;
@@ -69,10 +73,10 @@ a:hover {
 }
 
 .project-img {
-    position: relative;
-    width: 439px;
-    height: 559px;
-    background-color: #0BA1FF;
+    position: absolute;
+
+    top: 0;
+    left: 0;
 }
 
 .project-info {

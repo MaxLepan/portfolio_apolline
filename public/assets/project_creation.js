@@ -53,9 +53,6 @@ export const singleProjectCreation = (getProject, /*link,*/ allowTag = true) => 
                             <p>${projectTitleType[1]}</p>
                         </div>
                         <div id="main-prj-img-container">
-                            <svg class="blob" viewBox="-4 -11 220 210" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#F8D2D9" d="M31.3,-39.3C42.4,-28,54.4,-19.9,61.7,-6.7C68.9,6.4,71.4,24.5,64.9,38.9C58.3,53.3,42.7,64,27.3,65.4C11.9,66.8,-3.4,59.1,-19,53C-34.6,47,-50.6,42.7,-58.6,32.2C-66.6,21.7,-66.7,5,-63.9,-11.4C-61.1,-27.7,-55.5,-43.6,-44.4,-54.8C-33.3,-66,-16.6,-72.6,-3.3,-68.7C10.1,-64.8,20.3,-50.5,31.3,-39.3Z" transform="translate(90 85)" />
-                            </svg>
                             <img src="${singleProjectImg}" height="100%" id="main-prj-img">
                         </div>
                         <div id="prj-descr"><p>${data[projectOnPage].description}</p></div>
