@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Template Page Projet</title>
+
+    <link href="../style.css" rel="stylesheet">
+    <link rel="icon" href="../media/logo-2.png">
+</head>
+<body>
+<!----------------HEADER------------------->
+<header>
+    <div id="logo-wrapper">
+        <img src="../media/logo-2.png" alt="logo" id="logo">
+    </div>
+    <nav>
+        <div id="nav-content">
+            <a class="nav-item" href="../index.html">Projets</a>
+            <a class="nav-item" id="about" href="about.html">A propos</a>
+        </div>
+    </nav>
+</header>
+
+<div class="my-projects-circle" >
+    <img src="../media/SVG/mes_projets.svg" alt="Mes_Projets"/>
+</div>
+
+<!--PROJECT-->
+<div id="project-wrapper" class="secondary-text">
+    <div id="first-piece">
+        <div id="project-infos">
+            <div id="project-name-type">
+                <p>01 · NOM</p>
+                <p>Type de projet</p>
+            </div>
+            <div id="main-prj-img-container"></div>
+            <div id="prj-descr"><p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere.</p></div>
+        </div>
+        <div id="skills-carousel"></div>
+    </div>
+    <div id="prj-img-container">
+        <div id="prj-img1" class="prj-imgs"></div>
+        <div id="prj-img2" class="prj-imgs"></div>
+    </div>
+</div>
+
+<!--PROJECTS CAROUSEL-->
+<div id="carousel" class="splide">
+    <div class="splide__track">
+        <ul class="splide__list">
+            <li class="splide__slide">
+                <div id="car-project1" class="carousel-projects"></div>
+            </li>
+            <li class="splide__slide">
+                <div id="car-project2" class="carousel-projects"></div>
+            </li>
+            <li class="splide__slide">
+                <div id="car-project3" class="carousel-projects"></div>
+            </li>
+            <li class="splide__slide">
+                <div id="car-project4" class="carousel-projects"></div>
+            </li>
+            <li class="splide__slide">
+                <div id="car-project5" class="carousel-projects"></div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!---------------FOOTER------------------>
+<footer id="footer">
+    <div id="footer-content">
+        <p id="credit">@ApollineGREMBER2021</p>
+        <div id="website-credits">
+            <p>Code par Max Lepan</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="../assets/projects.js" type="module"></script>
+<script src="../splide-2.4.21/dist/js/splide.min.js"></script>
+<script type="module" src="../script.js"></script>
+<script type="module" src="../scripts/single_project.js"></script>
+</body>
+</html>
