@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-juliane",
+  "name": "portfolio-apolline",
   "version": "1.0.0",
-  "description": "Juliane Strappazzon's online portfolio",
+  "description": "Apolline Grember's online portfolio",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaxLepan/portfolio_juliane.git"
+    "url": "git+https://github.com/MaxLepan/portfolio_apolline.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MaxLepan/portfolio_juliane/issues"
+    "url": "https://github.com/MaxLepan/portfolio_apolline/issues"
   },
-  "homepage": "https://github.com/MaxLepan/portfolio_juliane#readme",
+  "homepage": "https://github.com/MaxLepan/portfolio_apolline#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",

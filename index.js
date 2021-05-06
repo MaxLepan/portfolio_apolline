@@ -32,6 +32,6 @@ const requestDribbbleAPI = async (key, link, path) => {
 }
 
 
-requestDribbbleAPI(`?access_token=${process.env["API_KEY"]}`, '/getProjects', 'user/shots');
+requestDribbbleAPI(`?access_token=${process.env["API_KEY"]}&per_page=100`, '/getProjects', 'user/shots');
 
 requestDribbbleAPI(`?access_token=${process.env['API_KEY']}`, '/getUser', 'user');
