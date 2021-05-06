@@ -60,8 +60,7 @@ a:hover {
     vertical-align: center;
     width: 439px;
     height: 559px;
-
-    border: white solid 1px;
+    overflow: hidden;
 
     transform: rotate(-23deg);
     transition: 0.3s;
@@ -75,8 +74,8 @@ a:hover {
 .project-img {
     position: absolute;
 
-    top: 0;
-    left: 0;
+    top: -57%;
+    left: -130%;
 }
 
 .project-info {
@@ -103,9 +102,20 @@ ul {
 }
 
 .carousel-projects {
+    position: relative;
     width: 330px;
     height: 420px;
     margin: 73px;
 
-    background-color: #6F7070;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+.carousel-img {
+    position: absolute;
+    object-fit: cover;
+    height: 210%;
+    top: -55%;
+    left: -124%;
 }
