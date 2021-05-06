@@ -30,6 +30,10 @@
     left: 82px;
 }
 
+#logo-wrapper:hover {
+    cursor: pointer;
+}
+
 #logo {
     position: relative;
     object-fit: contain;
