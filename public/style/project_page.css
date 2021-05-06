@@ -7,6 +7,11 @@
     position: relative;
     display: inline-flex;
     height: 100vh;
+    top: 12vh;
+}
+
+#project-infos {
+    width: 100vw;
 }
 
 #main-prj-img-container {
@@ -16,7 +21,7 @@
     height: 560px;
 
     left: calc(40% - 439px/2);
-    background-color: #0BA1FF;
+    overflow: hidden;
 
     transform: rotate(-23deg);
     transition: 0.3s;
@@ -25,6 +30,14 @@
 #main-prj-img-container:hover {
     transform: rotate(-10deg);
     transition: 0.3s;
+}
+
+#main-prj-img {
+    position: absolute;
+    left: -131%;
+    top: -58%;
+    height: 217%;
+    object-fit: cover;
 }
 
 #project-name-type {

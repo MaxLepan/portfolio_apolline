@@ -110,6 +110,14 @@ ul {
     overflow: hidden;
     display: flex;
     text-align: center;
+
+    transition: 0.3s;
+}
+
+.carousel-projects:hover {
+    transform: rotate(-15deg);
+
+    transition: 0.3s;
 }
 
 .carousel-img {
