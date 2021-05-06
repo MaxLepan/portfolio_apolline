@@ -14,26 +14,6 @@ export const singleProjectCreation = (getProject, /*link,*/ allowTag = true) => 
         let projectId = parseInt(params.get('projectId'))
         const projectOnPage = data.findIndex(project => project.id.toString() === projectId.toString())
 
-        /*const currentProjectIndex = data.findIndex(project => project.id === projectId)
-
-
-        let nextProjectIndex = currentProjectIndex + 1
-        let previousProjectIndex = currentProjectIndex - 1
-
-
-        if (previousProjectIndex === -1) {
-            previousProjectIndex = data.length - 1
-        }
-
-        if (nextProjectIndex === data.length) {
-            nextProjectIndex = 0
-        }
-
-
-        let nextProjectUrl = `${location}/${link}/pages/single_project.html?projectId=${data[nextProjectIndex].id}`
-        let previousProjectUrl = `${location}/${link}/pages/single_project.html?projectId=${data[previousProjectIndex].id}`
-*/
-
         const singleProject = document.getElementById("project-wrapper")
 
 
@@ -79,23 +59,6 @@ export const singleProjectCreation = (getProject, /*link,*/ allowTag = true) => 
 
         })
 
-        /*if (allowTag) {
-            document.getElementById("texts").innerHTML += `<div class="tags-row"></div>`
-            const tagsRow = document.querySelector('.tags-row')
-            const tags = projectOnPage.tags
-
-            if (tags.indexOf("nothomepage") !== -1) {
-                const indexTag = tags.indexOf("nothomepage")
-                tags.splice(indexTag, 1)
-            }
-
-            tags.forEach((tag, id) => {
-                if (id < 3) {
-                    tagsRow.innerHTML += `<p class="tag">${tag}</p>`
-                }
-            })
-
-        }*/
 
     })
 }
