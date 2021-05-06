@@ -60,10 +60,7 @@ export const singleProjectCreation = (getProject, /*link,*/ allowTag = true) => 
                     <div id="skills-carousel"></div>
                 </div>
                 <div id="prj-img-container">
-                <!--IMAGES SECONDAIRES-->
-                    <!--<div id="prj-img1" class="prj-imgs">
-                        <img src="$singleProjectImg}" height="100%" class="prj-img-wrapper">
-                    </div>-->
+
                 </div>
         `
 
